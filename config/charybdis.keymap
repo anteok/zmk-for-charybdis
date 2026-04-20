@@ -29,10 +29,10 @@
 
         secondary {
             bindings = <
-&kp PRINTSCREEN  &kp F1  &kp F2  &kp F3    &kp F4     &kp F5          &kp F6         &kp F7          &kp F8           &kp F9     &kp F10               &kp F11
-&trans           &trans  &trans  &trans    &trans     &trans          &trans         &trans          &trans           &kp MINUS  &kp EQUAL             &trans
-&trans           &trans  &trans  &trans    &trans     &trans          &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS  &kp EQUAL             &trans
-&trans           &trans  &trans  &trans    &trans     &trans          &trans         &kp LBKT        &kp RBKT         &trans     &kp NON_US_BACKSLASH  &trans
+&kp PRINTSCREEN  &kp F1  &kp F2  &kp F3    &kp F4     &kp F5          &kp F6         &kp F7          &kp F8           &kp F9     &kp F10        &kp F11
+&trans           &trans  &trans  &trans    &trans     &trans          &trans         &trans          &trans           &kp UNDER  &kp PLUS       &trans
+&trans           &trans  &trans  &trans    &trans     &trans          &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS  &kp EQUAL      &trans
+&trans           &trans  &trans  &trans    &trans     &trans          &trans         &kp LBKT        &kp RBKT         &trans     &kp BACKSLASH  &trans
                                  &kp CAPS  &kp TAB    &kp LEFT_ALT    &kp BACKSPACE  &kp SPACE
                                            &kp LSHFT  &kp LCTRL       &kp ENTER
             >;
@@ -43,7 +43,7 @@
 &trans  &trans         &trans    &trans    &trans     &trans       &trans         &trans     &trans    &trans     &trans  &trans
 &trans  &trans         &trans    &trans    &trans     &trans       &trans         &trans     &trans    &trans     &trans  &trans
 &trans  &kp PAGE_UP    &kp HOME  &trans    &trans     &trans       &trans         &trans     &kp UP    &trans     &trans  &trans
-&mo 0   &kp PAGE_DOWN  &kp END   &trans    &trans     &trans       &trans         &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &kp BACKSPACE
+&mo 0   &kp PAGE_DOWN  &kp END   &trans    &trans     &trans       &trans         &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &kp F12
                                  &kp CAPS  &kp TAB    &kp LALT     &kp BACKSPACE  &kp SPACE
                                            &kp LSHFT  &kp LCTRL    &kp ENTER
             >;
