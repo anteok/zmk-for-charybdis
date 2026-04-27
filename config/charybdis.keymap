@@ -20,10 +20,10 @@
             bindings = <
 &kp ESCAPE  &kp N1  &kp N2  &kp N3        &kp N4          &kp N5          &kp N6         &kp N7     &kp N8     &kp N9   &kp N0     &kp RIGHT_BRACKET
 &kp GRAVE   &kp Q   &kp W   &kp E         &kp R           &kp T           &kp Y          &kp U      &kp I      &kp O    &kp P      &kp LEFT_BRACKET
-&lt 3 F12   &kp A   &kp S   &kp D         &kp F           &kp G           &kp H          &kp J      &kp K      &kp L    &kp SEMI   &kp APOS
+&to 1       &kp A   &kp S   &kp D         &kp F           &kp G           &kp H          &kp J      &kp K      &kp L    &kp SEMI   &kp APOS
 &mo 2       &kp Z   &kp X   &kp C         &kp V           &kp B           &kp N          &kp M      &kp COMMA  &kp DOT  &kp SLASH  &kp DELETE
                             &kp CAPSLOCK  &kp TAB         &kp LEFT_ALT    &kp BACKSPACE  &kp SPACE
-                                          &kp LEFT_SHIFT  &kp LCTRL       &lt 1 ENTER
+                                          &kp LEFT_SHIFT  &kp LCTRL       &kp ENTER
             >;
         };
 
@@ -31,8 +31,8 @@
             bindings = <
 &kp PRINTSCREEN  &kp F1    &kp F2  &kp F3    &kp F4     &kp F5          &kp F6         &kp F7          &kp F8           &kp F9     &kp F10        &kp F11
 &trans           &trans    &trans  &trans    &trans     &trans          &trans         &trans          &trans           &kp UNDER  &kp PLUS       &trans
-&kp ESCAPE       &trans    &trans  &trans    &trans     &trans          &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS  &kp EQUAL      &trans
-&trans           &kp EXCL  &trans  &trans    &trans     &trans          &trans         &kp LBKT        &kp RBKT         &trans     &kp BACKSLASH  &trans
+&to 1            &trans    &trans  &trans    &trans     &trans          &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS  &kp EQUAL      &trans
+&trans           &kp EXCL  &trans  &trans    &trans     &trans          &trans         &kp LBKT        &kp RBKT         &trans     &kp BACKSLASH  &kp DELETE
                                    &kp CAPS  &kp TAB    &kp LEFT_ALT    &kp BACKSPACE  &kp SPACE
                                              &kp LSHFT  &kp LCTRL       &kp ENTER
             >;
@@ -40,12 +40,12 @@
 
         navigation {
             bindings = <
-&trans  &trans         &trans    &trans    &trans     &trans       &trans         &trans     &trans    &trans     &trans  &trans
-&trans  &trans         &trans    &trans    &trans     &trans       &trans         &trans     &trans    &trans     &trans  &trans
-&trans  &kp PAGE_UP    &kp HOME  &trans    &trans     &trans       &trans         &trans     &kp UP    &trans     &trans  &trans
-&mo 0   &kp PAGE_DOWN  &kp END   &trans    &trans     &trans       &trans         &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &kp F12
-                                 &kp CAPS  &kp TAB    &kp LALT     &kp BACKSPACE  &kp SPACE
-                                           &kp LSHFT  &kp LCTRL    &kp ENTER
+&trans   &trans         &trans    &trans    &trans     &trans       &trans         &trans     &trans    &trans     &trans  &trans
+&trans   &trans         &trans    &trans    &trans     &trans       &trans         &trans     &trans    &trans     &trans  &trans
+&kp F12  &kp PAGE_UP    &kp HOME  &trans    &trans     &trans       &trans         &trans     &kp UP    &trans     &trans  &trans
+&mo 0    &kp PAGE_DOWN  &kp END   &trans    &trans     &trans       &trans         &kp LEFT   &kp DOWN  &kp RIGHT  &trans  &kp F12
+                                  &kp CAPS  &kp TAB    &kp LALT     &kp BACKSPACE  &kp SPACE
+                                            &kp LSHFT  &kp LCTRL    &kp ENTER
             >;
         };
 
