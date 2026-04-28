@@ -29,11 +29,11 @@
 
         secondary {
             bindings = <
-&kp PRINTSCREEN  &kp F1    &kp F2  &kp F3             &kp F4     &kp F5          &kp F6         &kp F7          &kp F8           &kp F9     &kp F10        &kp F11
-&trans           &trans    &trans  &trans             &trans     &trans          &trans         &trans          &trans           &kp UNDER  &kp PLUS       &trans
-&to 0            &trans    &trans  &trans             &trans     &trans          &trans         &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS  &kp EQUAL      &trans
-&trans           &kp EXCL  &trans  &trans             &trans     &trans          &trans         &kp LBKT        &kp RBKT         &trans     &kp BACKSLASH  &kp DELETE
-                                   &mt LEFT_WIN CAPS  &kp TAB    &kp LEFT_ALT    &kp BACKSPACE  &kp SPACE
+&kp PRINTSCREEN  &kp F1    &kp F2  &kp F3             &kp F4     &kp F5          &kp F6            &kp F7           &kp F8          &kp F9     &kp F10        &kp F11
+&none            &none     &none   &none              &none      &none           &none             &none            &kp UNDERSCORE  &kp PLUS   &none          &none
+&to 0            &none     &none   &none              &none      &none           &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp MINUS       &kp EQUAL  &none          &none
+&none            &kp EXCL  &none   &none              &none      &none           &kp LEFT_BRACKET  &kp LBKT         &none           &none      &kp BACKSLASH  &kp DELETE
+                                   &mt LEFT_WIN CAPS  &kp TAB    &kp LEFT_ALT    &kp BACKSPACE     &kp SPACE
                                                       &kp LSHFT  &kp LCTRL       &kp ENTER
             >;
         };
